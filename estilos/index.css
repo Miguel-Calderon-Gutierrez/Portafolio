@@ -7,7 +7,7 @@
   ---medida_secciones--: 600px;
 }
 
-li{
+li {
   list-style: none;
 }
 
@@ -60,16 +60,16 @@ body {
   background-color: var(--color_titulos--);
 }
 
-html{
+html {
   scroll-behavior: smooth;
   transition: 1s;
 }
 
-.item-seccion{
+.item-seccion {
   scroll-margin-top: 7ex;
 }
 
-.list-redes{
+.list-redes {
   position: fixed;
   top: 70px;
   left: 10px;
@@ -78,16 +78,17 @@ html{
   height: auto;
 }
 
-.list-redes ul, .list-redes li , .list-redes a{
+.list-redes ul,
+.list-redes li,
+.list-redes a {
   background-color: inherit;
 }
 
-.redSocial{
+.redSocial {
   width: 40px;
   height: auto;
   background-color: inherit;
 }
-
 
 .container-logo {
   background-color: inherit;
@@ -117,7 +118,7 @@ html{
   flex-direction: column;
 }
 
-.container-foto{
+.container-foto {
   background-color: inherit;
 }
 
@@ -177,9 +178,9 @@ section {
   height: var(---medida_secciones--);
 }
 
-#seccion-skills{
+#seccion-skills {
   height: auto;
-  min-height:var(---medida_secciones--);
+  min-height: var(---medida_secciones--);
 }
 
 h2 {
@@ -201,8 +202,7 @@ p {
   text-align: justify;
 }
 
-
-footer{
+footer {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -212,7 +212,7 @@ footer{
   padding: 10px 0;
 }
 
-.cards-list{
+.cards-list {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -221,7 +221,7 @@ footer{
   flex-wrap: wrap;
 }
 
-.card{
+.card {
   display: flex;
   width: 150px;
   height: 200px;
@@ -230,15 +230,15 @@ footer{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  cursor: pointer
+  cursor: pointer;
 }
-.skill-img{
+.skill-img {
   width: 100px;
   height: auto;
   background-color: inherit;
 }
 
-.skill{
+.skill {
   display: block;
   justify-content: center;
   opacity: 0;
@@ -249,7 +249,7 @@ footer{
   padding-top: 10px;
 }
 
-.skill-img:hover ~ .skill{
+.skill-img:hover ~ .skill {
   opacity: 1;
   font-size: 1.5rem;
   text-transform: capitalize;
@@ -258,22 +258,22 @@ footer{
   color: rgb(255, 255, 255);
 }
 
-.container_contacto{
-display: flex;
-background-color: inherit;
-width: 100%;
-height: 100%;
-justify-content: center;
-align-items: center;
+.container_contacto {
+  display: flex;
+  background-color: inherit;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
 }
 
-.formulario{
+.formulario {
   background-color: inherit;
   display: flex;
   flex-direction: column;
 }
 
-.etiqueta{
+.etiqueta {
   background-color: inherit;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
@@ -282,7 +282,7 @@ align-items: center;
   text-transform: capitalize;
 }
 
-.asunto{
+.asunto {
   background-color: #999999;
   width: 300px;
   min-height: 30px;
@@ -295,7 +295,7 @@ align-items: center;
   font-size: 18px;
 }
 
-.cuerpo{
+.cuerpo {
   background-color: #999999;
   width: 530px;
   min-height: 300px;
@@ -309,20 +309,20 @@ align-items: center;
   resize: none;
 }
 
-.imagen_contacto{
+.imagen_contacto {
   background-color: inherit;
   width: 480px;
   height: auto;
 }
 
-.containerBoton{
+.containerBoton {
   display: flex;
   background-color: inherit;
   justify-content: center;
   align-items: center;
 }
 
-.informe{
+.informe {
   animation: tiembla 1s infinite;
   border-radius: 10px;
   background-color: inherit;
@@ -331,14 +331,16 @@ align-items: center;
   cursor: pointer;
 }
 
-@keyframes tiembla{
-  0% { background: #ff8686 }
-  100% { background: rgb(255, 0, 0) }
+@keyframes tiembla {
+  0% {
+    background: #ff8686;
+  }
+  100% {
+    background: rgb(255, 0, 0);
+  }
 }
 
-
-
-#btnenviar{
+#btnenviar {
   width: 180px;
   height: 35px;
   margin-top: 20px;
@@ -350,13 +352,13 @@ align-items: center;
   cursor: pointer;
 }
 
-#btnenviar:hover{
-  -webkit-box-shadow: 18px -2px 32px -2px rgba(255,255,255,0.7);
-  -moz-box-shadow: 18px -2px 32px -2px rgba(255,255,255,0.7);
-  box-shadow: 18px -2px 32px -2px rgba(255,255,255,0.7);
+#btnenviar:hover {
+  -webkit-box-shadow: 18px -2px 32px -2px rgba(255, 255, 255, 0.7);
+  -moz-box-shadow: 18px -2px 32px -2px rgba(255, 255, 255, 0.7);
+  box-shadow: 18px -2px 32px -2px rgba(255, 255, 255, 0.7);
 }
 
-footer h3{
+footer h3 {
   background-color: inherit;
   font-size: 0.9rem;
   font-family: "Roboto", sans-serif;
