@@ -273,28 +273,70 @@ align-items: center;
   flex-direction: column;
 }
 
+.etiqueta{
+  background-color: inherit;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 10px 0;
+  text-transform: capitalize;
+}
+
 .asunto{
   background-color: #999999;
-  width: 200px;
+  width: 300px;
   min-height: 30px;
-  border-radius: 10px;
+  border-radius: 7px;
   border: none;
+  outline: none;
+  margin: 10px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
 }
 
 .cuerpo{
   background-color: #999999;
-  width: 430px;
+  width: 530px;
   min-height: 300px;
-  border-radius: 10px;
-  margin-top: 20px;
+  border-radius: 7px;
   border: none;
+  outline: none;
+  margin: 8px;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  resize: none;
 }
 
 .imagen_contacto{
   background-color: inherit;
-  width: 550px;
+  width: 480px;
   height: auto;
 }
+
+.containerBoton{
+  display: flex;
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.informe{
+  animation: tiembla 1s infinite;
+  border-radius: 10px;
+  background-color: inherit;
+  font-size: 10px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@keyframes tiembla{
+  0% { background: #ff8686 }
+  100% { background: rgb(255, 0, 0) }
+}
+
+
 
 #btnenviar{
   width: 180px;

@@ -29,21 +29,21 @@
                 <li>
                     <a target="_blank"
                         href="mailto:miguelcalderon.dev@gmail.com?Subject=Quiero%20contratar%20tus%20servicios%20como%20desarrollador">
-                        <img src="gmail.png" alt="" class="redSocial">
+                        <img src="imagenes/gmail.png" alt="" class="redSocial">
                     </a>
                 </li>
 
                 <li>
                     <a target="_blank"
                         href="https://www.linkedin.com/in/programador-miguel-calderon">
-                        <img src="linkedin.png" alt="" class="redSocial">
+                        <img src="/imagenes/linkedin.png" alt="" class="redSocial">
                     </a>
                 </li>
 
                 <li>
                     <a target="_blank"
                         href="https://github.com/Miguel-Calderon-Gutierrez">
-                        <img src="github.png" alt="" class="redSocial">
+                        <img src="imagenes/github.png" alt="" class="redSocial">
                     </a>
                 </li>
 
@@ -169,22 +169,12 @@
 
             <section id="seccion-formacion" class="item-seccion">
                     <h2>Formación</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Minus consequuntur aspernatur facere aperiam culpa.
-                        Libero,
-                        recusandae sequi accusamus ea eos atque, voluptatum
-                        neque
-                        amet consequuntur qui non deserunt sapiente dolorum!</p>
+                   
             </section>
 
             <section id="seccion-proyectos" class="item-seccion">
                     <h2>Proyectos</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                        Minus consequuntur aspernatur facere aperiam culpa.
-                        Libero,
-                        recusandae sequi accusamus ea eos atque, voluptatum
-                        neque
-                        amet consequuntur qui non deserunt sapiente dolorum!</p>
+                    
             </section>
 
             <section id="seccion-contacto" class="item-seccion">
@@ -192,9 +182,13 @@
                     <div class="container_contacto">
                         <img src="imagenes/email-contac.png" alt="" class="imagen_contacto">
                         <div class="formulario">
-                            <input type="text" id="" class="asunto">
-                            <textarea name="" id="" class="cuerpo"></textarea>
-                            <button id="btnenviar">Enviar</button>
+                            <label class="etiqueta">Asunto: <span class="informe">(Maximo 30 caracteres)</span></label>
+                            <input type="text" id="asunto" class="asunto" maxlength="30">
+                            <label class="etiqueta">Mensaje: <span class="informe">(Maximo 500 caracteres):</span></label>
+                            <textarea name="" id="cuerpo" class="cuerpo" maxlength="600"></textarea>
+                            <div class="containerBoton">
+                                <button id="btnenviar">Enviar</button>
+                            </div>                           
                         </div>
                     </div>
                     
@@ -208,6 +202,6 @@
                 <h3>2022</h3>
             </footer>
 
-            <script src="index.js"></script>
+            <script src="logica/index.js"></script>
     </body>
 </html>
