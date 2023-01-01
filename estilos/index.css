@@ -258,16 +258,65 @@ footer{
   color: rgb(255, 255, 255);
 }
 
+.container_contacto{
+display: flex;
+background-color: inherit;
+width: 100%;
+height: 100%;
+justify-content: center;
+align-items: center;
+}
+
+.formulario{
+  background-color: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+.asunto{
+  background-color: #999999;
+  width: 200px;
+  min-height: 30px;
+  border-radius: 10px;
+  border: none;
+}
+
+.cuerpo{
+  background-color: #999999;
+  width: 430px;
+  min-height: 300px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+}
+
+.imagen_contacto{
+  background-color: inherit;
+  width: 550px;
+  height: auto;
+}
+
+#btnenviar{
+  width: 180px;
+  height: 35px;
+  margin-top: 20px;
+  background-color: #263238;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#btnenviar:hover{
+  -webkit-box-shadow: 18px -2px 32px -2px rgba(255,255,255,0.7);
+  -moz-box-shadow: 18px -2px 32px -2px rgba(255,255,255,0.7);
+  box-shadow: 18px -2px 32px -2px rgba(255,255,255,0.7);
+}
+
 footer h3{
   background-color: inherit;
   font-size: 0.9rem;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-}
-
-#btnenviar{
-  width: 120px;
-  height: 25px;
-  background-color: #CC0E0E;
-  color: #999999;
 }
