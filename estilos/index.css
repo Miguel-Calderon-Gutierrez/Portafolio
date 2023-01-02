@@ -178,7 +178,7 @@ section {
   height: var(---medida_secciones--);
 }
 
-#seccion-skills {
+#seccion-skills,#seccion-formacion {
   height: auto;
   min-height: var(---medida_secciones--);
 }
@@ -197,9 +197,23 @@ p {
   font-size: 1.2rem;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
-  margin: 20px 15%;
   background-color: inherit;
   text-align: justify;
+}
+
+.container-me{
+  display: flex;
+  width: 70%;
+  background-color: inherit;
+  justify-content: center;
+  align-items: center;
+  padding: 0 ;
+}
+
+.imagen_me {
+  background-color: inherit;
+  width: 400px;
+  height: auto;
 }
 
 footer {
@@ -258,6 +272,51 @@ footer {
   color: rgb(255, 255, 255);
 }
 
+.container-cards-formacion{
+  width: 90%;
+  height: auto;
+  background-color: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center ;
+  margin:  0 auto;
+}
+
+.card-fromacion{
+  display: flex;
+  flex-direction: column;
+  background-color: #1D1D1D;
+  width: 450px;
+  height: 180px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.head-card-fromacion{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.logo_institucional{
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #ffffff;
+}
+
+.titulo_formacion{
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.descrip-formacion{
+  color: #ffffff;
+}
+
 .container_contacto {
   display: flex;
   background-color: inherit;
@@ -283,7 +342,7 @@ footer {
 }
 
 .asunto {
-  background-color: #999999;
+  background-color: #EBF0ED;
   width: 300px;
   min-height: 30px;
   border-radius: 7px;
@@ -296,7 +355,7 @@ footer {
 }
 
 .cuerpo {
-  background-color: #999999;
+  background-color: #EBF0ED;
   width: 530px;
   min-height: 300px;
   border-radius: 7px;
@@ -323,7 +382,7 @@ footer {
 }
 
 .informe {
-  animation: tiembla 1s infinite;
+  animation: tiembla 1.2s infinite;
   border-radius: 10px;
   background-color: inherit;
   font-size: 10px;
