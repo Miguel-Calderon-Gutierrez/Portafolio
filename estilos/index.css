@@ -272,6 +272,16 @@ footer {
   color: rgb(255, 255, 255);
 }
 
+.card:hover .skill {
+  opacity: 1;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  color: rgb(255, 255, 255);
+}
+
+
 .container-cards-formacion{
   width: 90%;
   height: auto;
