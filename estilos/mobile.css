@@ -14,7 +14,7 @@
     section{
         width: 100vw;
         height: auto;
-        min-height: 750px;
+        min-height: 500px;
         padding: 10px 0;
         flex-direction: column;
     }
@@ -24,12 +24,13 @@
     }
 
     .palabra{
-        font-size: 20px;
+        font-size: 22px;
         padding: 0 10px ;
     }
 
     .container-me{
         flex-direction: column;
+        gap: 15px;
         height: auto;
     }
 
@@ -40,6 +41,7 @@
     p{
         font-size: 18px;
         width: 70%;
+        margin-top: 10px;
     }
 
     .cards-list {
