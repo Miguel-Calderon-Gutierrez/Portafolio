@@ -1,0 +1,121 @@
+@media (max-width: 700px) {
+
+    .menu{
+        display: none;
+    }
+
+    .redSocial {
+        width: 35px;
+        height: auto;
+        background-color: inherit;
+    }
+
+
+    section{
+        width: 100vw;
+        height: auto;
+        min-height: 750px;
+        padding: 10px 0;
+        flex-direction: column;
+    }
+
+    .container{
+        width: 100%;
+    }
+
+    .palabra{
+        font-size: 20px;
+        padding: 0 10px ;
+    }
+
+    .container-me{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .imagen_me {
+        width: 300px;
+    }
+
+    p{
+        font-size: 18px;
+        width: 70%;
+    }
+
+    .cards-list {
+        display: flex;
+        gap: 8px;
+        margin-top: 10px;
+        flex-wrap: wrap;
+    }
+
+    .card { 
+        width: 120px;
+        height: 200px;
+    }
+
+    .card-fromacion{
+        width: 280px;
+    }
+
+
+    .skill-img {
+        width: 100px;
+        height: auto;
+        background-color: inherit;
+      }
+      
+      .skill {
+        display: block;
+        justify-content: center;
+        opacity: 0;
+        font-size: 0.5rem;
+        transition: opacity 1500ms;
+        transition: font-size 1500ms;
+        background-color: inherit;
+        padding-top: 10px;
+      }
+      
+      .skill-img:hover ~ .skill {
+        opacity: 1;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        color: rgb(255, 255, 255);
+      }
+      
+      .card:hover .skill {
+        opacity: 1;
+        font-size: 1.2rem;
+        text-transform: capitalize;
+        font-weight: bold;
+        font-family: "Roboto", sans-serif;
+        color: rgb(255, 255, 255);
+      }
+
+
+    .container_contacto{
+        flex-direction: column;
+    }
+
+    .imagen_contacto{
+      width: 200px;
+    }
+
+    .cuerpo{
+        width: 300px;
+    }
+
+    .etiqueta {
+        margin: 0 0;
+        margin-left: 35px;
+    }
+
+    .asunto,.cuerpo{
+        margin-left: 40px;
+    }
+
+}
+
+

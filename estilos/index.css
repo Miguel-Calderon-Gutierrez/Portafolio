@@ -73,7 +73,7 @@ html {
   position: fixed;
   top: 70px;
   left: 10px;
-  background-color: rgba(255, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
   width: auto;
   height: auto;
 }
@@ -162,11 +162,11 @@ html {
     width: 0;
   }
 }
-.secciones section:nth-of-type(2n + 1) {
+.secciones section:nth-of-type(2n) {
   background-color: var(--color_subtitulos--);
 }
 
-.secciones section h2:nth-of-type(2n + 1) {
+.secciones section h2:nth-of-type(2n) {
   color: var(--color_subtitulos2--);
 }
 
