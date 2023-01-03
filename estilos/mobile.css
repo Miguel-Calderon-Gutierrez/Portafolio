@@ -57,9 +57,20 @@
     }
 
     .card-fromacion{
-        width: 280px;
+        width: 250px;
     }
 
+    .logo_institucional{
+        width: 35px;
+        height: 35px;
+    }
+
+    .titulo_formacion,.descrip-formacion{
+        font-size: 15px;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 5px;
+    }
 
     .skill-img {
         width: 100px;
