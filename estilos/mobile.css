@@ -1,4 +1,4 @@
-@media (max-width: 700px) {
+@media (max-width: 1036px) {
 
     .menu{
         display: none;
@@ -24,8 +24,7 @@
     }
 
     .palabra{
-        font-size: 22px;
-        padding: 0 10px ;
+        font-size: 2.5rem;
     }
 
     .container-me{
@@ -46,13 +45,14 @@
 
     .cards-list {
         display: flex;
+        justify-content: center;
         gap: 8px;
         margin-top: 10px;
         flex-wrap: wrap;
     }
 
     .card { 
-        width: 120px;
+        width: 110px;
         height: 200px;
     }
 
@@ -107,13 +107,8 @@
         color: rgb(255, 255, 255);
       }
 
-
-    .container_contacto{
-        flex-direction: column;
-    }
-
     .imagen_contacto{
-      width: 200px;
+      width: 300px;
     }
 
     .cuerpo{
@@ -129,6 +124,23 @@
         margin-left: 40px;
     }
 
+    .list-redes {
+        top: 5%;
+      }
+
 }
 
+@media (max-width: 800px) {
+    .container_contacto{
+        flex-direction: column;
+    }
 
+    .palabra{
+        font-size: 20px;
+        padding: 0 0;
+    }
+
+    .imagen_contacto{
+        width: 200px;
+    }
+}

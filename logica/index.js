@@ -17,5 +17,20 @@ const enviarMensaje = () => {
   mail.click();
 };
 
+const alerta = () =>{
+
+  //divMenuResponsivo
+  let divMenuResponsivo = document.getElementById("divMenuResponsivo");
+  alert("Sale menu");  
+};
+
 let button = document.getElementById("btnenviar");
 button.addEventListener("click", enviarMensaje);
+
+let botonHamburguesa = document.getElementById("btnHamb");
+botonHamburguesa.addEventListener("click", alerta);
+
+/*
+let botonOpcion = document.getElementsByClassName("opcion");
+botonOpcion.addEventListener("click", alerta);
+*/

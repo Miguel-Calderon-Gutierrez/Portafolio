@@ -11,17 +11,27 @@
     <body>
 
         <div class="menu">
-            <li><a href="#Inicio">Inicio</a></li>
-            <li><a href="#seccion_obre_mi">Sobre mi</a></li>
-            <li><a href="#seccion-skills">Skills</a></li>
-            <li><a href="#seccion-formacion">Formación</a></li>
-            <li><a href="#seccion-proyectos">Proyectos</a></li>
-            <li><a href="#seccion-contacto">Contacto</a></li>
+            <li><a href="#Inicio" id="opcion">Inicio</a></li>
+            <li><a href="#seccion_obre_mi" id="opcion">Sobre mi</a></li>
+            <li><a href="#seccion-skills" id="opcion">Skills</a></li>
+            <li><a href="#seccion-formacion" id="opcion">Formación</a></li>
+            <li><a href="#seccion-proyectos" id="opcion">Proyectos</a></li>
+            <li><a href="#seccion-contacto" id="opcion">Contacto</a></li>
+            <!--
             <div class="container-logo">
-
-                    <img class="logo" src="imagenes/logoMac.png" alt="Foto">
-
-            </div>
+                <img class="logo" id="btnHamb" src="imagenes/menu.png" alt="Foto">
+            </div>        
+            -->
+        </div>
+        <div class="menu_responsivo" id="divMenuResponsivo">
+            <ul class="lista-responsive">
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#seccion_obre_mi">Sobre mi</a></li>
+                <li><a href="#seccion-skills">Skills</a></li>
+                <li><a href="#seccion-formacion">Formación</a></li>
+                <li><a href="#seccion-proyectos">Proyectos</a></li>
+                <li><a href="#seccion-contacto">Contacto</a></li>
+            </ul>
         </div>
 
         <div class="list-redes">
@@ -57,259 +67,271 @@
 
 
         <div class="secciones">
-            
+
             <section id="Inicio" class="item-seccion">
                 <div class="container">
                     <div class="container-foto">
                         <img class="foto" src="imagenes/foto.jpg" alt="Foto">
+                        <a class="enlaceCv" href="https://export-download.canva.com/hqte4/DAE-KChqte4/236/0-1599472548.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230108%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230108T080709Z&X-Amz-Expires=58553&X-Amz-Signature=26b0e86c072df47b67ecc73545c7ce9645f591667c0c4a7429a23993447a84b4&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Curr%25C3%25ADculum%2520Miguel%2520Calderon.pdf&response-expires=Mon%2C%2009%20Jan%202023%2000%3A23%3A02%20GMT">Descargar cv</a>
                     </div>
                     <div class="container-palabra">
-    
+
                         <h1 class="palabra">Hola, Soy Miguel Calderon, &nbsp;<span
                                 id="span_cursor">&#160</span></h1>
                         <h1 class="palabra">Desarrollador web.<span
                                 id="span_cursor">&#160</span></h1>
                     </div>
                 </div>
-    
+
             </section>
-    
+
 
             <section id="seccion_obre_mi" class="item-seccion">
-                <h2>Sobre mi</h2>               
+                <h2>Sobre mi</h2>
                 <div class="container-me">
-                    <p>Soy una persona proactiva, organizada y responsable con habilidades de relación interpersonales sólidas. Me encanta programar, especialmente el desarrollo frontend y backend con Java. Estoy siempre aprendiendo nuevas tecnologías y buscando desafíos laborales para crecer profesionalmente.</p>
-    
+                    <p>Soy una persona proactiva, organizada y responsable con
+                        habilidades de relación interpersonales sólidas. Me
+                        encanta programar, especialmente el desarrollo frontend
+                        y backend con Java. Estoy siempre aprendiendo nuevas
+                        tecnologías y buscando desafíos laborales para crecer
+                        profesionalmente.</p>
 
-                    <img class="imagen_me" src="imagenes/SobreMi.png" alt="Foto">
+
+                    <img class="imagen_me" src="imagenes/SobreMi.png"
+                        alt="Foto">
 
                 </div>
 
-                </section>
+            </section>
 
-                <section id="seccion-skills" class="item-seccion">
-                    <h2>SKILLS</h2>
-                    <div class="cards-list">
-                        <div class="card">
-                            <img src="imagenes/java.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                Java
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/js.png" alt="" class="skill-img">
-                            <span class="skill">
-                                Javascript
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/html-5.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                html
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/css.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                css
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/bootstrap.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                bootstrap
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/Python.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                Python
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/Git.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                Git
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/mysql.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                mysql
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/Csharp.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                C Sharp
-                            </span>
-                        </div>
-
-                        <div class="card">
-                            <img src="imagenes/jquery.png" alt=""
-                                class="skill-img">
-                            <span class="skill">
-                                jquery
-                            </span>
-                        </div>
-
+            <section id="seccion-skills" class="item-seccion">
+                <h2>SKILLS</h2>
+                <div class="cards-list">
+                    <div class="card">
+                        <img src="imagenes/java.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            Java
+                        </span>
                     </div>
-                </section>
 
-                <section id="seccion-formacion" class="item-seccion">
-                    <h2>Formación</h2>
-                    <div class="container-cards-formacion">
+                    <div class="card">
+                        <img src="imagenes/js.png" alt="" class="skill-img">
+                        <span class="skill">
+                            Javascript
+                        </span>
+                    </div>
 
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/uniamazonia.png" alt=""
-                                    class="logo_institucional">
-                                <h3 class="titulo_formacion">Ingenieria de
-                                    sistemas</h3>
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
-                        </div>                        
+                    <div class="card">
+                        <img src="imagenes/html-5.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            html
+                        </span>
+                    </div>
 
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/Alura.jpg" alt=""
+                    <div class="card">
+                        <img src="imagenes/css.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            css
+                        </span>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagenes/bootstrap.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            bootstrap
+                        </span>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagenes/Git.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            Git
+                        </span>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagenes/mysql.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            mysql
+                        </span>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagenes/Csharp.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            C Sharp
+                        </span>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagenes/NET_Core_Logo.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            .NetCore
+                        </span>
+                    </div>
+
+                    <div class="card">
+                        <img src="imagenes/jquery.png" alt=""
+                            class="skill-img">
+                        <span class="skill">
+                            jquery
+                        </span>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="seccion-formacion" class="item-seccion">
+                <h2>Formación</h2>
+                <div class="container-cards-formacion">
+
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/uniamazonia.png" alt=""
                                 class="logo_institucional">
-                                <h3 class="titulo_formacion">Desarrollo Front End G3 - ONE</h3>
-
-
-
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
+                            <h3 class="titulo_formacion">Ingenieria de
+                                sistemas</h3>
                         </div>
-
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/Alura.jpg" alt=""
-                                    class="logo_institucional">
-                                <h3 class="titulo_formacion">Principiante en Programación G3 - ONE</h3>
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
-                        </div>
-
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/uniSergioArboleda.png" alt=""
-                                    class="logo_institucional">
-                                <h3 class="titulo_formacion">Mision Tic 2022</h3>
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
-                        </div>
-
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/Sena.png" alt=""
-                                    class="logo_institucional">
-                                <h3 class="titulo_formacion">Tecnico en
-                                    sistemas</h3>
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
-                        </div>
-
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/Sena.png" alt=""
-                                    class="logo_institucional">
-                                <h3 class="titulo_formacion">construccion de bases de datos con mysql
-                                </h3>
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
-                        </div>
-
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/Sena.png" alt=""
-                                    class="logo_institucional">
-                                <h3 class="titulo_formacion">maquetacion de sitios web con html5 y css3
-                                </h3>
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
-                        </div>
-
-                        <div class="card-fromacion">
-                            <div class="head-card-fromacion">
-                                <img src="imagenes/InLearning.png" alt=""
-                                    class="logo_institucional">
-                                <h3 class="titulo_formacion">Aprende Scrum
-                                </h3>
-                            </div>
-                            <span class="descrip-formacion">Lorem, ipsum dolor
-                                sit amet consectetur adipisicing elit. Odio
-                                iusto nemo, placeat obcaecati ab molestia</span>
-                        </div>
-
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
                     </div>
 
-                </section>
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/Alura.jpg" alt=""
+                                class="logo_institucional">
+                            <h3 class="titulo_formacion">Desarrollo Front End G3
+                                - ONE</h3>
 
-                <section id="seccion-proyectos" class="item-seccion">
-                    <h2>Proyectos</h2>
 
-                </section>
 
-                <section id="seccion-contacto" class="item-seccion">
-                    <h2>Contacto</h2>
-                    <div class="container_contacto">
-                        <img src="imagenes/email-contac.png" alt=""
-                            class="imagen_contacto">
-                        <div class="formulario">
-                            <label class="etiqueta">Asunto: <span
-                                    class="informe">(Maximo 30 caracteres)</span></label>
-                            <input type="text" id="asunto" class="asunto"
-                                maxlength="30">
-                            <label class="etiqueta">Mensaje: <span
-                                    class="informe">(Maximo 500 caracteres):</span></label>
-                            <textarea name="" id="cuerpo" class="cuerpo"
-                                maxlength="600"></textarea>
-                            <div class="containerBoton">
-                                <button id="btnenviar">Enviar</button>
-                            </div>
                         </div>
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
                     </div>
 
-                </section>
-            </div>
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/Alura.jpg" alt=""
+                                class="logo_institucional">
+                            <h3 class="titulo_formacion">Principiante en
+                                Programación G3 - ONE</h3>
+                        </div>
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
+                    </div>
 
-            <footer>
-                <h3>&copy;Creado por Miguel Calderon</h3>
-                <h3>Florencia-Caqueta, Colombia</h3>
-                <h3>2022</h3>
-            </footer>
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/uniSergioArboleda.png" alt=""
+                                class="logo_institucional">
+                            <h3 class="titulo_formacion">Mision Tic 2022</h3>
+                        </div>
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
+                    </div>
 
-            <script src="logica/index.js"></script>
-        </body>
-    </html>
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/Sena.png" alt=""
+                                class="logo_institucional">
+                            <h3 class="titulo_formacion">Tecnico en
+                                sistemas</h3>
+                        </div>
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
+                    </div>
+
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/Sena.png" alt=""
+                                class="logo_institucional">
+                            <h3 class="titulo_formacion">construccion de bases
+                                de datos con mysql
+                            </h3>
+                        </div>
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
+                    </div>
+
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/Sena.png" alt=""
+                                class="logo_institucional">
+                            <h3 class="titulo_formacion">maquetacion de sitios
+                                web con html5 y css3
+                            </h3>
+                        </div>
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
+                    </div>
+
+                    <div class="card-fromacion">
+                        <div class="head-card-fromacion">
+                            <img src="imagenes/InLearning.png" alt=""
+                                class="logo_institucional">
+                            <h3 class="titulo_formacion">Aprende Scrum
+                            </h3>
+                        </div>
+                        <span class="descrip-formacion">Lorem, ipsum dolor
+                            sit amet consectetur adipisicing elit. Odio
+                            iusto nemo, placeat obcaecati ab molestia</span>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section id="seccion-proyectos" class="item-seccion">
+                <h2>Proyectos</h2>
+
+            </section>
+
+            <section id="seccion-contacto" class="item-seccion">
+                <h2>Contacto</h2>
+                <div class="container_contacto">
+                    <img src="imagenes/email-contac.png" alt=""
+                        class="imagen_contacto">
+                    <div class="formulario">
+                        <label class="etiqueta">Asunto: <span
+                                class="informe">(Maximo 30 caracteres)</span></label>
+                        <input type="text" id="asunto" class="asunto"
+                            maxlength="30">
+                        <label class="etiqueta">Mensaje: <span
+                                class="informe">(Maximo 500 caracteres):</span></label>
+                        <textarea name="" id="cuerpo" class="cuerpo"
+                            maxlength="600"></textarea>
+                        <div class="containerBoton">
+                            <button id="btnenviar">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </div>
+
+
+        <footer>
+            <h3>&copy;Creado por Miguel Calderon</h3>
+            <h3>Florencia-Caqueta, Colombia</h3>
+            <h3>2022</h3>
+        </footer>
+
+        <script src="logica/index.js"></script>
+    </body>
+</html>
