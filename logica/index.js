@@ -27,8 +27,8 @@ const alerta = () =>{
 let button = document.getElementById("btnenviar");
 button.addEventListener("click", enviarMensaje);
 
-let botonHamburguesa = document.getElementById("btnHamb");
-botonHamburguesa.addEventListener("click", alerta);
+//let botonHamburguesa = document.getElementById("btnHamb");
+//botonHamburguesa.addEventListener("click", alerta);
 
 /*
 let botonOpcion = document.getElementsByClassName("opcion");

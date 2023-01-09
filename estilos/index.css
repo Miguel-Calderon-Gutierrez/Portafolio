@@ -139,10 +139,10 @@ html {
   background-color: white;
 }
 
-.enlaceCv{
-  font-family:"Roboto", sans-serif;
+.enlaceCv {
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
-  color: #EBF0ED;
+  color: #ebf0ed;
   background-color: #123353;
   width: 180px;
   height: 30px;
@@ -201,7 +201,9 @@ section {
   min-height: var(---medida_secciones--);
 }
 
-#seccion-skills,#seccion-formacion {
+#seccion-skills,
+#seccion-formacion,
+#seccion-proyectos {
   height: auto;
   min-height: var(---medida_secciones--);
 }
@@ -224,13 +226,13 @@ p {
   text-align: justify;
 }
 
-.container-me{
+.container-me {
   display: flex;
   width: 70%;
   background-color: inherit;
   justify-content: center;
   align-items: center;
-  padding: 0 ;
+  padding: 0;
 }
 
 .imagen_me {
@@ -305,29 +307,27 @@ footer {
   color: rgb(255, 255, 255);
 }
 
-
-.container-cards-formacion{
+.container-cards-formacion {
   width: 90%;
   height: auto;
   background-color: inherit;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center ;
-  margin:  0 auto;
+  justify-content: center;
 }
 
-.card-fromacion{
+.card-fromacion {
   display: flex;
   flex-direction: column;
-  background-color: #1D1D1D;
+  background-color: #1d1d1d;
   width: 450px;
-  height: 180px;
-  margin: 20px;
+  height: auto;
+  margin: 10px;
   padding: 10px;
   border-radius: 10px;
 }
 
-.head-card-fromacion{
+.head-card-fromacion {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -335,33 +335,53 @@ footer {
   gap: 5px;
 }
 
-.logo_institucional{
+.logo_institucional {
   width: 50px;
   height: 50px;
   border-radius: 100px;
   background-color: #ffffff;
 }
 
-.titulo_formacion{
+.titulo_formacion {
   color: #ffffff;
   text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
 }
 
-.descrip-formacion{
+.descipcionDelPrograma {
   color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0 0 5px 0; 
 }
 
-.containerProyectos{
+.containerItemsDescripcion {
+  padding: 10px;
+}
+
+.descrip-formacion {
+  color: #ffffff;
+  list-style: square;
+  margin-left: 15px;
+  text-align: justify;
+  padding: 0 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+.containerProyectos {
   margin-top: 15px;
   width: 80%;
   gap: 20px;
-  height: 600px;
+  min-height: var(---medida_secciones--);
+  height: auto;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
 
-.card-proyecto{
+.card-proyecto {
   background-color: #123353;
   border-radius: 10px;
   display: flex;
@@ -373,17 +393,20 @@ footer {
   height: 300px;
 }
 
-.nombreProyecto, .MuestraProyecto, .contenidoProyecto, .opcionesProyectos{
+.nombreProyecto,
+.MuestraProyecto,
+.contenidoProyecto,
+.opcionesProyectos {
   background-color: inherit;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #ffffff;
 }
 
-.nombreProyecto{
+.nombreProyecto {
   font-size: 25px;
 }
-.contenidoProyecto{
+.contenidoProyecto {
   display: flex;
   gap: 8px;
   flex-direction: column;
@@ -391,13 +414,13 @@ footer {
   justify-content: center;
 }
 
-.MuestraProyecto{
+.MuestraProyecto {
   width: 80%;
   border-radius: 5px;
   height: auto;
 }
 
-.opcionesProyectos{
+.opcionesProyectos {
   display: flex;
   justify-content: center;
   width: 100%;
@@ -405,13 +428,13 @@ footer {
   gap: 10px;
 }
 
-.OpcionProyecto{
+.OpcionProyecto {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #ffffff;
   text-decoration: none;
   background-color: #2ecc71;
-  text-align: center;  
+  text-align: center;
   padding: 0 5px;
   padding-top: 8px;
   padding-bottom: 4px;
@@ -445,7 +468,7 @@ footer {
 }
 
 .asunto {
-  background-color: #EBF0ED;
+  background-color: #ebf0ed;
   width: 300px;
   min-height: 30px;
   border-radius: 7px;
@@ -458,7 +481,7 @@ footer {
 }
 
 .cuerpo {
-  background-color: #EBF0ED;
+  background-color: #ebf0ed;
   width: 530px;
   min-height: 300px;
   border-radius: 7px;
@@ -526,12 +549,12 @@ footer h3 {
   color: #ffffff;
 }
 
-.menu_responsivo{
+.menu_responsivo {
   display: none;
   transition: 1.5s ease-in-out;
 }
 
-.menu_responsivo2{
+.menu_responsivo2 {
   width: 100%;
   height: 100vh;
   background-color: #ffffff;
@@ -543,10 +566,11 @@ footer h3 {
   justify-content: center;
   align-items: center;
   visibility: hidden;
-  transition:  1s all linear;
+  transition: 1s all linear;
 }
 
-.lista-responsive, .lista-responsive li, .lista-responsive li a{
+.lista-responsive,
+.lista-responsive li,
+.lista-responsive li a {
   background-color: inherit;
 }
-
