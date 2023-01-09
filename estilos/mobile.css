@@ -128,12 +128,35 @@
         top: 5%;
       }
 
+    .containerProyectos{
+       flex-direction: column;
+    }
+
 }
 
 @media (max-width: 800px) {
     .container_contacto{
         flex-direction: column;
     }
+
+    .containerProyectos{
+        flex-direction: column;
+     }
+
+     .card-proyecto{
+       width: 300px;
+     }
+
+     .contenidoProyecto{
+        width: 100%;
+     }
+
+     .opcionesProyectos{
+        gap: 5px;
+     }
+     .OpcionProyecto{
+        margin: 4px 2px 2px 2px;
+     }
 
     .palabra{
         font-size: 20px;
