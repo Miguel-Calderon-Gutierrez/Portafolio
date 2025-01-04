@@ -13,7 +13,7 @@
 
     section{
         width: 100vw;
-        height: auto;
+        height: 100vh;
         min-height: 500px;
         padding: 10px 0;
         flex-direction: column;

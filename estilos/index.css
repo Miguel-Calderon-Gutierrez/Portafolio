@@ -4,7 +4,7 @@
   --color_titulos--: #2ecc71;
   --color_subtitulos--: #123353;
   --color_subtitulos2--: #ffffff;
-  ---medida_secciones--: 600px;
+  ---medida_secciones--: 100vh;
 }
 
 li {
@@ -197,7 +197,6 @@ section {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  height: auto;
   min-height: var(---medida_secciones--);
 }
 
